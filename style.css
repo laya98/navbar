@@ -1,0 +1,35 @@
+body{
+    height: 2000px;
+}
+
+
+.navbar{
+    background-color: rgb(179, 156, 201);
+}
+
+img{
+    width: 100px;
+    height: 80px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: blue;
+}
+.navbar-nav .nav-item .nav-link:focus{
+    color: green;
+}
+.navbar-toggler{
+    border-color: #fff;
+}
+.nav-item i{
+    border-left: 2px blue solid;
+    padding: 10px;
+}
+
+@media (max-width:1200px){
+    .navbar-nav {
+        display: none;
+    }
+}
